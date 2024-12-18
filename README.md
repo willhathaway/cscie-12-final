@@ -1,5 +1,3 @@
-# cscie-12-final
-
 ### **Will Hathaway**
 
 CSCI E-12  
@@ -66,8 +64,8 @@ The surface design uses a theme inspired by an artist's sketchbook, featuring:
 
 **CSS**
 
-* I did my best to use universal styles where possible.  
-* I divided my CSS into three separate files, with individual files for the Lightroom and Color Wheel-specific components, in order to avoid cluttering my main stylesheet and establishing some separation of concerns.  
+* I did my best to use reusable universal styles where possible.  
+* I used comments to organize my CSS into sections, starting with more universal styles with more specific styles towards the bottom of the stylesheet.  
 * CSS animations were used for interactive elements like the "light button" and the dropdown menu.
 
 **JavaScript**
@@ -97,12 +95,11 @@ The surface design uses a theme inspired by an artist's sketchbook, featuring:
 **Lessons Learned**
 
 * **What Worked Well**:  
-  * The interactive elements effectively engage users and provide hands-on learning.  
-  * The accessibility tools ensured the site met diverse user needs.  
-  * The responsive design adapts seamlessly to various devices.  
+  * I think the interactive elements are engaging.  
+  * The responsive design adapts to various device sizes.  
 * **What Needs Improvement**:  
   * The implementation of advanced animations proved challenging and could be refined.  
-  * The "notebook mode" feature could be better, with additional visual features. I want the notebook mode to be very stylized and magical, while still readable, engaging, and accessible to all users.  
+  * The "notebook mode" feature could be better, with additional visual features and a better font for legibility.  
 * **Reflection**:  
   * If I were to start again, I would dedicate more time to refining interactive animations. I would also try to create a foundation for future demos, like standard HTML/CSS elements that I could implement across different demos. I tried to add a few more, but the intricacies of CSS/JS animations made that difficult to achieve. The modular structure of the code made universal style adjustments easier, which helped a lot.
 

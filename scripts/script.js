@@ -1,3 +1,5 @@
+// NAVIGATION FUNCTION:
+
 document.addEventListener("DOMContentLoaded", () => {
   const navToggle = document.getElementById("nav-toggle");
   const navMenu = document.getElementById("nav-menu");
@@ -8,6 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// PRISM DEMO FUNCTION:
 
 document.addEventListener("DOMContentLoaded", () => {
   const lightButton = document.querySelector("#light-button");
@@ -27,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+
+// PAINTING AND MOOD DEMO FUNCTION:
 
 document.addEventListener("DOMContentLoaded", () => {
   const paintingDisplay = document.getElementById("painting-display");
@@ -82,6 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 });
+
+// NOTEBOOK MODE FUNCTON:
 
 document.addEventListener("DOMContentLoaded", () => {
   const toggleButton = document.getElementById("notebook-toggle");
