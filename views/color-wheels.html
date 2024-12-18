@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the evolution of color theory over time."
+    />
+    <meta name="keywords" content="Color Theory, Art, Science, History" />
+    <meta name="author" content="William Hathaway - CSCI E-12" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/color-wheel.css" />
+    <title>Color Theory Over Time</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Color Theory Site</h1>
+        <button class="nav-toggle" id="nav-toggle"></button>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="../views/index.html">Home</a></li>
+          <li><a href="../views/lightroom.html">Lightroom</a></li>
+          <li><a href="../views/color-wheels.html">Color wheels</a></li>
+          <li><a href="../views/resources.html">Resources</a></li>
+          <li><a href="../views/contributors.html">Contributors</a></li>
+          <li><a href="../views/applications.html">Applications</a></li>
+          <li id="notebook-toggle">Notebook Mode</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container"></div>
+      <h2>Historical Color Wheels</h2>
+      <div class="color-wheel" id="color-wheel-aristotle">
+        <h3>Aristotle</h3>
+        <p class="quote">
+          "Colors arise from the interplay of light and darkness, with white
+          being the presence of light and black its absence." — Aristotle,
+          "Meteorology"
+        </p>
+        <div class="colors" data-wheel="aristotle">
+          <div class="color" style="background-color: #ffffff">
+            <span id="dark-text">White</span>
+          </div>
+          <div class="color" style="background-color: #ffff00">
+            <span id="dark-text">Yellow</span>
+          </div>
+          <div class="color" style="background-color: #ff0000">
+            <span>Red</span>
+          </div>
+          <div class="color" style="background-color: #8b00ff">
+            <span>Violet</span>
+          </div>
+          <div class="color" style="background-color: #00ff00">
+            <span id="dark-text">Green</span>
+          </div>
+          <div class="color" style="background-color: #0000ff">
+            <span>Blue</span>
+          </div>
+          <div class="color" style="background-color: #000000">
+            <span>Black</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-wheel" id="color-wheel-bartholomaeus">
+        <h3>Bartholomaeus Anglicus</h3>
+        <p class="quote">
+          "Red is the color of fire and heat, green is the hue of earth and
+          life, while blue is the reflection of celestial calm." — Bartholomaeus
+          Anglicus, "De Proprietatibus Rerum" (On the Properties of Things)
+        </p>
+
+        <div class="colors" data-wheel="bartholomaeus">
+          <div class="color" style="background-color: #ffffff">
+            <span id="dark-text">White</span>
+          </div>
+          <div class="color" style="background-color: #ffff00">
+            <span id="dark-text">Yellow</span>
+          </div>
+          <div class="color" style="background-color: #ffd700">
+            <span id="dark-text">Gold</span>
+          </div>
+          <div class="color" style="background-color: #ff0000">
+            <span>Red</span>
+          </div>
+          <div class="color" style="background-color: #b22ec1">
+            <span>Purple</span>
+          </div>
+          <div class="color" style="background-color: #008000">
+            <span>Green</span>
+          </div>
+          <div class="color" style="background-color: #000000">
+            <span>Black</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-wheel" id="color-wheel-leonardo">
+        <h3>Leonardo da Vinci</h3>
+        <p class="quote">
+          "Of the simple colors, yellow represents earth, green water, blue air,
+          and red fire. White is the light, without which no color is seen." —
+          Leonardo da Vinci, "Treatise on Painting"
+        </p>
+
+        <div class="colors" data-wheel="leonardo">
+          <div class="color" style="background-color: #ffffff">
+            <span id="dark-text">White</span>
+          </div>
+          <div class="color" style="background-color: #ffff00">
+            <span id="dark-text">Yellow</span>
+          </div>
+          <div class="color" style="background-color: #00ff00">
+            <span id="dark-text">Green</span>
+          </div>
+          <div class="color" style="background-color: #0000ff">
+            <span>Blue</span>
+          </div>
+          <div class="color" style="background-color: #ff0000">
+            <span>Red</span>
+          </div>
+          <div class="color" style="background-color: #000000">
+            <span>Black</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-wheel" id="color-wheel-newton">
+        <h3>Isaac Newton</h3>
+        <p class="quote">
+          "The rays of light, themselves uncolored, give rise to all visible
+          colors when refracted through the prism." — Isaac Newton, "Opticks"
+          (1704)
+        </p>
+
+        <div class="colors" data-wheel="newton">
+          <div class="color" style="background-color: #ff0000">
+            <span>Red</span>
+          </div>
+          <div class="color" style="background-color: #ff7f00">
+            <span>Orange</span>
+          </div>
+          <div class="color" style="background-color: #ffff00">
+            <span id="dark-text">Yellow</span>
+          </div>
+          <div class="color" style="background-color: #00ff00">
+            <span id="dark-text">Green</span>
+          </div>
+          <div class="color" style="background-color: #0000ff">
+            <span>Blue</span>
+          </div>
+          <div class="color" style="background-color: #4b0082">
+            <span>Indigo</span>
+          </div>
+          <div class="color" style="background-color: #9400d3">
+            <span>Violet</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-wheel" id="color-wheel-goethe">
+        <h3>Goethe</h3>
+        <p class="quote">
+          "Colors are deeds and sufferings of light. They arise through the
+          interaction of light and shadow, as we observe in nature." — Goethe,
+          "Theory of Colors" (1810)
+        </p>
+
+        <div class="colors" data-wheel="goethe">
+          <div class="color" style="background-color: #ff0000">
+            <span>Red</span>
+          </div>
+          <div class="color" style="background-color: #ff7f00">
+            <span>Orange</span>
+          </div>
+          <div class="color" style="background-color: #ffff00">
+            <span id="dark-text">Yellow</span>
+          </div>
+          <div class="color" style="background-color: #00ff00">
+            <span>Green</span>
+          </div>
+          <div class="color" style="background-color: #0000ff">
+            <span>Blue</span>
+          </div>
+          <div class="color" style="background-color: #800080">
+            <span>Purple</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-wheel" id="color-wheel-modern">
+        <h3>Modern Color Wheel</h3>
+        <p class="quote">
+          Most color wheels are based on three primary colors, three secondary
+          colors, and the six intermediates formed by mixing a primary with a
+          secondary, known as tertiary colors, for a total of 12 main divisions;
+          some add more intermediates, for 24 named colors. They make use of the
+          trichromatic model of color.
+        </p>
+
+        <div class="colors" data-wheel="modern">
+          <div class="color" style="background-color: #7f00ff">
+            <span>Violet</span>
+          </div>
+          <div class="color" style="background-color: #0000ff">
+            <span>Blue</span>
+          </div>
+          <div class="color" style="background-color: #00ffff">
+            <span id="dark-text">Cyan</span>
+          </div>
+          <div class="color" style="background-color: #00ff00">
+            <span id="dark-text">Green</span>
+          </div>
+          <div class="color" style="background-color: #ffff00">
+            <span>Yellow</span>
+          </div>
+          <div class="color" style="background-color: #ff7f00">
+            <span>Orange</span>
+          </div>
+          <div class="color" style="background-color: #ff0000">
+            <span>Red</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="light-source">
+        <div class="light"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>2024 William Hathaway - CSCI E-12</p>
+    </footer>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

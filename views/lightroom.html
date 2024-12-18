@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore the evolution of color theory over time."
+    />
+    <meta name="keywords" content="Color Theory, Art, Science, History" />
+    <meta name="author" content="William Hathaway - CSCI E-12" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="../styles/lightroom.css" />
+    <title>Color Theory Over Time</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <h1>Color Theory Site</h1>
+        <button class="nav-toggle" id="nav-toggle"></button>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="../views/index.html">Home</a></li>
+          <li><a href="../views/lightroom.html">Lightroom</a></li>
+          <li><a href="../views/color-wheels.html">Color wheels</a></li>
+          <li><a href="../views/resources.html">Resources</a></li>
+          <li><a href="../views/contributors.html">Contributors</a></li>
+          <li><a href="../views/applications.html">Applications</a></li>
+          <li id="notebook-toggle">Notebook Mode</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container"></div>
+
+      <h2>Lightroom</h2>
+      <section class="demo-container">
+        <h3>Isaac Newton: Prism Experiment</h3>
+        <p>
+          Newton's prism experiments demonstrated that white light is composed
+          of different colors. Click the light source button to illuminate the
+          prism and see the refraction.
+        </p>
+        <div id="prism-demo">
+          <!-- Light Source Button -->
+          <button id="light-button" aria-label="Activate Light Source"></button>
+
+          <!-- Prism and Refracted Light -->
+          <div class="prism"></div>
+          <div class="refracted-light"></div>
+        </div>
+      </section>
+
+      <section class="demo-container" id="goethe-moods">
+        <h3>Goethe's Mood Exploration</h3>
+        <p>
+          Goethe placed emphasis on the way in which color affects our mood, and
+          vice versa. This demo aims to show how our emotions respond to shifts
+          in color. Switch between four paintings depicting different times of
+          day, and use the color buttons to see how slight shifts in color
+          change our perception.
+        </p>
+
+        <div id="painting-container">
+          <img
+            id="painting-display"
+            src="../images/paintings/morning.jpg"
+            alt="Morning Painting"
+          />
+          <div id="overlay"></div>
+        </div>
+
+        <div class="button-group">
+          <button class="time-button" data-time="morning">Morning</button>
+          <button class="time-button" data-time="noon">Noon</button>
+          <button class="time-button" data-time="evening">Evening</button>
+          <button class="time-button" data-time="night">Night</button>
+        </div>
+
+        <div class="button-group">
+          <button class="color-button" data-color="rgba(255, 255, 0, 0.1)">
+            Yellow: Cheerful
+          </button>
+          <button class="color-button" data-color="rgba(255, 165, 0, 0.2)">
+            Orange: Energetic
+          </button>
+          <button class="color-button" data-color="rgba(255, 0, 0, 0.2)">
+            Red: Passionate
+          </button>
+          <button class="color-button" data-color="rgba(128, 0, 128, 0.2)">
+            Purple: Reflective
+          </button>
+          <button class="color-button" data-color="rgba(0, 0, 255, 0.2)">
+            Blue: Serene
+          </button>
+          <button class="color-button" data-color="rgba(0, 128, 0, 0.2)">
+            Green: Calm
+          </button>
+          <button class="color-button reset-overlay" data-color="transparent">
+            Reset Overlay
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>2024 William Hathaway - CSCI E-12</p>
+    </footer>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>
